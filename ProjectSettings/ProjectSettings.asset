@@ -521,7 +521,7 @@ PlayerSettings:
   webGLUseWasm: 0
   webGLCompressionFormat: 1
   scriptingDefineSymbols:
-    1: HOTFIX_ENABLE;INJECT_WITHOUT_TOOL
+    1: HOTFIX_ENABLE
   platformArchitecture: {}
   scriptingBackend: {}
   incrementalIl2cppBuild: {}
