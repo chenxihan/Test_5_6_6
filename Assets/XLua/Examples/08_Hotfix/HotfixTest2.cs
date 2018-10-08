@@ -403,7 +403,7 @@ public class HotfixTest2 : MonoBehaviour {
         luaenv.DoString(@"
             xlua.hotfix(CS.BaseTest, 'Foo', function(self, p)
                     print('BaseTest', p,base,self,base(self))
-                    base(self):Foo(p)
+                    --base(self):Foo(p) --泛型override有异常 废弃了
                 end)
             xlua.hotfix(CS.BaseTest, 'ToString', function(self)
                     return '>>>' .. base(self):ToString()
